@@ -10,7 +10,7 @@ def bubblesort(listvalues):
                 
 
 #Selection Sort
-
+#Better Sort Compared others
 def selection_sort(l):
     for i in range(len(l)-1):
         key=i
@@ -21,7 +21,7 @@ def selection_sort(l):
         l[i]=l[key]
         l[key]=temp
     
-    print(l)
+    print("Sorted List--->",l)
     
 
 
